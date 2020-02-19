@@ -1,0 +1,108 @@
+/* https://colorscheme.ru/#3L11Tw0w0v5v5   цветовая схема*/ 
+body {
+    background-color: #f8f8f8;
+}
+.header {
+    background-image: url(img/iMarket_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 25%;
+}
+.menu {
+    text-align: center;
+    list-style: none;         
+}
+.menu a {
+    text-decoration: none;  
+    color: #2A4481;
+    font-size: 25px;
+}
+.menu a:hover {
+    text-decoration: none;  
+    color: #6989D4;
+    font-size: 30px; 
+}
+.menu a:active {
+    text-decoration: none;  
+    color: red;
+    font-size: 30px;
+}
+.h_short, .h_full, .h_spec {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.short_disc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.short_disc:first-letter {
+    color: #4470D4;
+    font-size: 30px;
+}
+.full_disc li {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left; 
+} 
+.spec {
+    border: 1px solid #000;
+    width: 400px;
+    height: 100px;
+    border-collapse: collapse; 
+    font-size: 19px;
+    font-style: oblique;
+}
+.spec td {
+    border: 1px solid #000;
+    padding-left:10px;
+    text-align: center;
+}
+
+.spec h5 {
+    color: #6989D4;  
+    font-style: normal;
+}
+textarea {
+    color: #4A4A4A;
+    font-style: oblique;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: #F3E3D2;  
+}
+textarea:focus {
+    text-transform: capitalize;
+}
+.text {
+    font-style: italic;
+    font-family: serif;
+    color: #000;
+    background-color: #F3E3D2;
+    height: 25px;
+    width: 340px;
+    font-size: 18px;
+}
+.text:focus {
+    color: #2A4481;
+    background-color: #f8f8f8
+}
+.pic {
+    outline: 5px solid #062671;
+}
+.pic:hover {
+    outline: none;
+}
+.footer a {
+    text-decoration: none; 
+    color: #6989D4;
+    font-size: 15px;
+}
+.footer a:hover {
+    color: #4470D4;
+    font-size: 18px;
+}
